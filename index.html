@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <title>Bloguify</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="node_modules/bulma-extensions/bulma-calendar/dist/css/bulma-calendar.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
   <body>
@@ -119,38 +120,125 @@
                     </div>
                 </td>
               </tr>
+              <tr>
+                <td><a href="#">Titulo do Post</a></td>
+                <td>dd/mm/aaaa</td>
+                <td><a href="#"><a href="#">Nome do Autor</a></td>
+                <td><div class="buttons has-addons is-centered">
+                      <span class="button is-small">Editar</span>
+                      <span class="button is-small">Excluir</span>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="#">Titulo do Post</a></td>
+                <td>dd/mm/aaaa</td>
+                <td><a href="#"><a href="#">Nome do Autor</a></td>
+                <td><div class="buttons has-addons is-centered">
+                      <span class="button is-small">Editar</span>
+                      <span class="button is-small">Excluir</span>
+                    </div>
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
         <div class="column">
-          <h1 class="title is-4">
-            Comentários recentes
-          </h1>
-          <table class="table is-fullwidth is-bordered is-striped">
-            <tbody>
-              <tr>
-                <td colspan="4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis hendrerit est id interdum. Integer eleifend aliquet mi, in viverra turpis aliquam nec. Fusce convallis orci eu venenatis hendrerit...</p> 
-                </td>
-              </tr>
-              <tr>
-                <td colspan="4">Por <a href="#">Autor</a> sobre <a href="#">Titulo do Post</a> em dd/mm/aaaa<br/>
-                <a href="#">Aprovar</a> / <a href="#">Rejeitar</a> / <a href="#">Editar</a> / <a href="#">Spam</a>                 
-                </td>
-              </tr>
-              <tr>
-                <td colspan="4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis hendrerit est id interdum. Integer eleifend aliquet mi, in viverra turpis aliquam nec. Fusce convallis orci eu venenatis hendrerit...</p> 
-                </td>
-              </tr>
-              <tr>
-                <td colspan="4">Por <a href="#">Nome do Autor</a> sobre <a href="#">Titulo do Post</a> em dd/mm/aaaa<br/>
-                <a href="#">Aprovar</a> / <a href="#">Rejeitar</a> / <a href="#">Editar</a> / <a href="#">Spam</a> 
-                </td>
-              </tr>
-            </tbody>
-          </table>
+        	<h1 class="title is-4">
+            	Post rápido
+          	</h1>
+          	<form>	
+          		<div class="field is-horizontal">
+          			<div class="field-body">
+			          	<div class="field">
+							<label class="label">Título</label>
+							<p class="control">
+								<input class="input" type="text" placeholder="Text input">
+							</p>
+						</div>
+						<div class="field">
+							<label class="label">Subtitulo</label>
+							<p class="control">
+								<input class="input" type="text" placeholder="Text input">
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="field is-horizontal">
+          			<div class="field-body">
+			          	<div class="field">
+							<label class="label">Data</label>
+							<p class="control">
+								<input class="input" type="date" placeholder="Text input">
+							</p>
+						</div>
+						<div class="field">
+							<label class="label">Categorias</label>
+							<p class="control">
+								<input class="input" type="text" placeholder="Text input">
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="field">
+					<label class="label">Post</label>
+			      <div class="control">
+			        <textarea class="textarea" placeholder="Explain how we can help you"></textarea>
+			      </div>
+			    </div>
+
+			    <div class="field is-grouped">
+				  <div class="control">
+				    <button class="button is-primary">Publicar</button>
+				  </div>
+				  <div class="control">
+				    <button class="button is-text">Rascunho</button>
+				  </div>
+				</div>
+			</form>
         </div>
+      </div>
+
+      <div class="columns">
+      	<div class="column">
+      		<h1 class="title is-4">
+            	Comentários recentes
+          	</h1>
+          	<table class="table is-fullwidth is-bordered is-striped">
+	            <tbody>
+	              <tr>
+	                <td colspan="4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis hendrerit est id interdum. Integer eleifend aliquet mi, in viverra turpis aliquam nec. Fusce convallis orci eu venenatis hendrerit...</p> 
+	                </td>
+	              </tr>
+	              <tr>
+	                <td colspan="4">Por <a href="#">Autor</a> sobre <a href="#">Titulo do Post</a> em dd/mm/aaaa<br/>
+	                <a href="#">Aprovar</a> / <a href="#">Rejeitar</a> / <a href="#">Editar</a> / <a href="#">Spam</a>                 
+	                </td>
+	              </tr>
+	              <tr>
+	                <td colspan="4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis hendrerit est id interdum. Integer eleifend aliquet mi, in viverra turpis aliquam nec. Fusce convallis orci eu venenatis hendrerit...</p> 
+	                </td>
+	              </tr>
+	              <tr>
+	                <td colspan="4">Por <a href="#">Nome do Autor</a> sobre <a href="#">Titulo do Post</a> em dd/mm/aaaa<br/>
+	                <a href="#">Aprovar</a> / <a href="#">Rejeitar</a> / <a href="#">Editar</a> / <a href="#">Spam</a> 
+	                </td>
+	              </tr>
+	            </tbody>
+          </table>
+      	</div>
+      	<div class="column">
+      		<h1 class="title is-4">
+            	Eventos
+          	</h1>
+      	</div>
       </div>
     </div>
   </section>
   </body>
+
+  <script src="node_modules/bulma-extensions/bulma-calendar/dist/js/bulma-calendar.min.js"></script>
+  <script src="js/style.js"></script>
 </html>
