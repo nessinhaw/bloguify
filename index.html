@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand"><a class="navbar-item title" href="#">Bloguify</a></div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="https://bulma.io/">
+          Painel
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
+            Posts
+          </a>
+          <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+              Ver todos
+            </a>
+            <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+              Criar novo
+            </a>
+            <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+              Categorias
+            </a>
+            <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+              Tags
+            </a>
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
+            Páginas
+          </a>
+          <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+              Ver todos
+            </a>
+            <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+              Criar novo
+            </a>
+          </div>
+        </div>
+
+         <a class="navbar-item" href="https://bulma.io/">
+          Personalização
+        </a>
+
+        <a class="navbar-item" href="https://bulma.io/">
+          Configurações
+        </a>
+
+        <a class="navbar-item" href="https://bulma.io/">
+          Usuários
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://bulma.io/">
+          Sair
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <h1 class="title is-4">
+            Posts recentes
+          </h1>
+          <table class="table is-fullwidth is-bordered is-striped">
+            <thead>
+              <tr>
+                <th>Titulo</th>
+                <th>Data</th>
+                <th>Autor</th>
+                <th>Açoes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#">Titulo do Post</a></td>
+                <td>dd/mm/aaaa</td>
+                <td><a href="#"><a href="#">Nome do Autor</a></td>
+                <td><div class="buttons has-addons is-centered">
+                      <span class="button is-small">Editar</span>
+                      <span class="button is-small">Excluir</span>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="#">Titulo do Post</a></td>
+                <td>dd/mm/aaaa</td>
+                <td><a href="#"><a href="#">Nome do Autor</a></td>
+                <td><div class="buttons has-addons is-centered">
+                      <span class="button is-small">Editar</span>
+                      <span class="button is-small">Excluir</span>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td><a href="#">Titulo do Post</a></td>
+                <td>dd/mm/aaaa</td>
+                <td><a href="#"><a href="#">Nome do Autor</a></td>
+                <td><div class="buttons has-addons is-centered">
+                      <span class="button is-small">Editar</span>
+                      <span class="button is-small">Excluir</span>
+                    </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="column">
+          <h1 class="title is-4">
+            Comentários recentes
+          </h1>
+          <table class="table is-fullwidth is-bordered is-striped">
+            <tbody>
+              <tr>
+                <td colspan="4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis hendrerit est id interdum. Integer eleifend aliquet mi, in viverra turpis aliquam nec. Fusce convallis orci eu venenatis hendrerit...</p> 
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4">Por <a href="#">Autor</a> sobre <a href="#">Titulo do Post</a> em dd/mm/aaaa<br/>
+                <a href="#">Aprovar</a> / <a href="#">Rejeitar</a> / <a href="#">Editar</a> / <a href="#">Spam</a>                 
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis hendrerit est id interdum. Integer eleifend aliquet mi, in viverra turpis aliquam nec. Fusce convallis orci eu venenatis hendrerit...</p> 
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4">Por <a href="#">Nome do Autor</a> sobre <a href="#">Titulo do Post</a> em dd/mm/aaaa<br/>
+                <a href="#">Aprovar</a> / <a href="#">Rejeitar</a> / <a href="#">Editar</a> / <a href="#">Spam</a> 
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
