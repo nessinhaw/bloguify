@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bloguify</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="node_modules/bulma-extensions/bulma-calendar/dist/css/bulma-calendar.min.css">
+    <link rel="stylesheet" href="node_modules/bulma-extensions/bulma-timeline/dist/css/bulma-timeline.min.css">
+    <link rel="stylesheet" href="node_modules/bulma-extensions/bulma-tooltip/dist/css/bulma-tooltip.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand"><a class="navbar-item title" href="#">Bloguify</a></div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="https://bulma.io/">
+          Painel
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
+            Posts
+          </a>
+          <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+              Ver todos
+            </a>
+            <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+              Criar novo
+            </a>
+            <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+              Categorias
+            </a>
+            <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+              Tags
+            </a>
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
+            Páginas
+          </a>
+          <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+              Ver todos
+            </a>
+            <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+              Criar novo
+            </a>
+          </div>
+        </div>
+
+         <a class="navbar-item" href="https://bulma.io/">
+          Personalização
+        </a>
+
+        <a class="navbar-item" href="https://bulma.io/">
+          Configurações
+        </a>
+
+        <a class="navbar-item" href="https://bulma.io/">
+          Usuários
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://bulma.io/">
+          Sair
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title is-4">
+        Novo Post
+      </h1>
+        <form>  
+              <div class="field is-horizontal">
+                <div class="field-body">
+                  <div class="field">
+              <label class="label">Título</label>
+              <p class="control">
+                <input class="input" type="text" placeholder="Text input">
+              </p>
+            </div>
+            <div class="field">
+              <label class="label">Subtitulo</label>
+              <p class="control">
+                <input class="input" type="text" placeholder="Text input">
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="field is-horizontal">
+                <div class="field-body">
+                  <div class="field">
+              <label class="label">Data</label>
+              <p class="control">
+                <input class="input" type="date" placeholder="Text input">
+              </p>
+            </div>
+            <div class="field">
+              <label class="label">Categorias</label>
+              <p class="control">
+                <input class="input" type="text" placeholder="Text input">
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Post</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="Explain how we can help you"></textarea>
+            </div>
+          </div>
+
+          <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-primary">Publicar</button>
+          </div>
+          <div class="control">
+            <button class="button is-text">Rascunho</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="node_modules/bulma-extensions/bulma-calendar/dist/js/bulma-calendar.min.js"></script>
+  <script src="js/style.js"></script>
+</html>

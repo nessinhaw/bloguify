@@ -1,0 +1,11 @@
+.config-tools{
+  width: 19% !important;
+}
+
+a.config-tools-item{
+  padding-right: 1rem !important;
+}
+
+.config-tools-item{
+  padding: .375rem .5rem !important;
+}
